@@ -62,11 +62,9 @@ recipe-card/
 
 ## Author
 
-Created by Amelia Reed
-
-- GitHub: https://github.com/yourusername
-- Instagram: https://www.instagram.com/yourhandle
-- LinkedIn: https://www.linkedin.com/in/yourprofile
+Created by K.Saradha
+- GitHub: https://github.com/kummarisaradha
+- LinkedIn: https://www.linkedin.com/in/kummari-saradha-a586a4383?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
 ## License
 
