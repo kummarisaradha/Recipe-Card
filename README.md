@@ -8,7 +8,7 @@ A polished recipe card concept built with semantic HTML5 and CSS3, designed to f
 
 ## Live Demo
 
-Coming soon — add your GitHub Pages URL here.
+https://kummarisaradha.github.io/Recipe-Card/
 
 ## Screenshot
 
