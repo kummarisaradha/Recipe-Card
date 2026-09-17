@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A polished recipe card featuring a vibrant vegetable pasta with clear ingredients, instructions, and cooking notes."
+    />
+    <title>Sunlit Garden Pasta | Recipe Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <article class="recipe-card" aria-labelledby="recipe-title">
+        <header class="recipe-header">
+          <div class="title-wrap">
+            <span class="eyebrow">Vegetarian</span>
+            <h1 id="recipe-title">Sunlit Garden Pasta</h1>
+          </div>
+          <div class="header-actions">
+            <button class="cooking-mode-button" type="button" id="startCookingMode">
+              Start Cooking Mode
+            </button>
+            <button class="save-button" type="button" aria-label="Save recipe">
+              <span aria-hidden="true">♡</span>
+            </button>
+          </div>
+        </header>
+
+        <figure class="recipe-figure">
+          <img
+            src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?auto=format&fit=crop&w=1200&q=80"
+            alt="A plate of colorful pasta with vegetables and herbs"
+          />
+        </figure>
+
+        <section class="quick-stats" aria-label="Recipe details">
+          <div class="stat-item">
+            <span class="stat-icon" aria-hidden="true">⏱</span>
+            <div>
+              <p>Prep</p>
+              <strong>15 min</strong>
+            </div>
+          </div>
+          <div class="stat-item">
+            <span class="stat-icon" aria-hidden="true">🔥</span>
+            <div>
+              <p>Cook</p>
+              <strong>20 min</strong>
+            </div>
+          </div>
+          <div class="stat-item">
+            <span class="stat-icon" aria-hidden="true">🍽</span>
+            <div>
+              <p>Serves</p>
+              <strong>2–3</strong>
+            </div>
+          </div>
+          <div class="stat-item">
+            <span class="stat-icon" aria-hidden="true">🏅</span>
+            <div>
+              <p>Difficulty</p>
+              <strong>Easy</strong>
+            </div>
+          </div>
+        </section>
+
+        <div class="content-grid">
+          <section class="panel ingredients" aria-labelledby="ingredients-heading">
+            <div class="section-heading">
+              <span class="section-badge">Ingredients</span>
+              <h2 id="ingredients-heading">What you'll need</h2>
+            </div>
+
+            <ul class="ingredient-list">
+              <li>
+                <label>
+                  <input type="checkbox" />
+                  <span>200g spaghetti or linguine</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" />
+                  <span>2 tbsp olive oil</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" />
+                  <span>3 cloves garlic, thinly sliced</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" />
+                  <span>1 cup cherry tomatoes, halved</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" />
+                  <span>1 small zucchini, ribboned</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" />
+                  <span>1 cup spinach</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" />
+                  <span>1/2 cup peas</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" />
+                  <span>1/4 cup basil, chopped</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" />
+                  <span>1/3 cup parmesan, finely grated</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" />
+                  <span>Salt, black pepper, and chili flakes to taste</span>
+                </label>
+              </li>
+            </ul>
+          </section>
+
+          <section class="panel steps" aria-labelledby="steps-heading">
+            <div class="section-heading">
+              <span class="section-badge accent">Method</span>
+              <h2 id="steps-heading">Step by step</h2>
+            </div>
+
+            <ol class="instruction-list">
+              <li>
+                Bring a large pot of salted water to a boil and cook the pasta until al dente.
+                Reserve 1/2 cup of pasta water, then drain.
+              </li>
+              <li>
+                While the pasta cooks, warm olive oil in a large skillet over medium heat. Add garlic
+                and cook for 30 seconds until fragrant.
+              </li>
+              <li>
+                Stir in the cherry tomatoes, zucchini, and peas. Cook for 4–5 minutes until the
+                vegetables soften and the tomatoes begin to burst.
+              </li>
+              <li>
+                Add the spinach and basil, then toss in the drained pasta. Pour in a splash of the
+                reserved pasta water to create a glossy sauce.
+              </li>
+              <li>
+                Season with salt, pepper, and chili flakes. Finish with parmesan and toss gently until
+                everything is evenly coated.
+              </li>
+              <li>
+                Serve immediately with extra herbs and a little more parmesan on top for a fresh,
+                vibrant finish.
+              </li>
+            </ol>
+          </section>
+        </div>
+
+        <aside class="notes panel" aria-labelledby="notes-heading">
+          <div class="section-heading">
+            <span class="section-badge neutral">Notes</span>
+            <h2 id="notes-heading">Tips for the best result</h2>
+          </div>
+          <ul>
+            <li>Use a little pasta water to help the sauce cling to the noodles without becoming heavy.</li>
+            <li>If you want extra protein, add white beans or grilled chicken for a heartier meal.</li>
+            <li>Fresh basil and lemon zest will make the dish feel brighter and more aromatic.</li>
+          </ul>
+        </aside>
+
+        <footer class="recipe-footer">
+          <p>Created by <strong>Amelia Reed</strong></p>
+          <nav aria-label="Social links">
+            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://www.pinterest.com/" target="_blank" rel="noreferrer">Pinterest</a>
+          </nav>
+        </footer>
+      </article>
+    </main>
+
+    <div class="cooking-overlay" id="cookingOverlay" aria-hidden="true">
+      <div class="cooking-panel" role="dialog" aria-modal="true" aria-labelledby="cookingStepHeading">
+        <button class="close-cooking" type="button" aria-label="Close cooking mode">×</button>
+
+        <header class="cooking-topbar">
+          <span class="eyebrow">Cooking Mode</span>
+          <p class="step-indicator" id="cookingStepIndicator">Step 1 of 6</p>
+        </header>
+
+        <div class="progress-track" aria-label="Recipe progress">
+          <span class="progress-fill" id="progressFill"></span>
+        </div>
+
+        <div class="cooking-content">
+          <section class="timer-section" aria-live="polite">
+            <p class="timer-label">Timer</p>
+            <div class="timer-display" id="timerDisplay">--:--</div>
+            <div class="timer-controls">
+              <button type="button" id="startTimerBtn" class="timer-button primary">Start Timer</button>
+              <button type="button" id="resetTimerBtn" class="timer-button secondary">Reset</button>
+            </div>
+          </section>
+
+          <section class="step-section">
+            <p class="step-kicker">Current step</p>
+            <h2 id="cookingStepHeading">Step 1</h2>
+            <p id="cookingStepText" class="cooking-step-text"></p>
+          </section>
+        </div>
+
+        <div class="cooking-actions">
+          <button type="button" id="prevStepBtn" class="nav-button secondary">Previous</button>
+          <button type="button" id="nextStepBtn" class="nav-button primary">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
